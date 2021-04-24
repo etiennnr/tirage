@@ -1,0 +1,24 @@
+var ExcelApp = new ActiveXObject("Excel.Application");
+var ExcelSheet = new ActiveXObject("Excel.Sheet");
+ExcelSheet.Application.Visible = true;
+// Place some text in the first cell of the sheet.
+ExcelSheet.ActiveSheet.Cells(1,1).Value = "This is column A, row 1";
+// Save the sheet.
+ExcelSheet.SaveAs("C:\\TEST.XLS");
+// Close Excel with the Quit method on the Application object.
+ExcelSheet.Application.Quit();
+
+
+
+/*Voulez vous un programme qui gene directement votre liste de gagnant dans un fichier excel ou
+Qui affiche les informations du gagnant puis produit la liste des gagnant
+ */
+
+/*
+Les modeles des pc vendu et les versions de Windows disponible au prof ?
+Possibité d'avoir des modelès pour des test ?
+*/
+
+/*
+Date de la vente des ordianteurs 
+*/ 

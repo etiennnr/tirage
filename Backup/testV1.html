@@ -1,0 +1,123 @@
+<!DOCTYPE html> 
+<html>
+ <head>
+	<meta charset="UTF-8">
+	<script type="text/JavaScript" src="test.js"></script>
+	<title>Aléatoire</title>
+	
+ </head>
+	<body>
+		<h1>Tirage</h1>
+		<p> Choisir les colonnes d'identification&nbsp;
+		<select id="ID_ID1"  >
+		<option selected="selected" value="0">Aucun</option>
+		<option value="1">A</option>
+		<option value="2">B</option>
+		<option value="3">C</option>
+		<option value="4">D</option>
+		<option value="5">E</option>
+		<option value="6">F</option>
+		<option value="7">G</option>
+		</select>
+		<select id="ID_ID2"  >
+		<option selected="selected" value="0">Aucun</option>
+		<option value="1">A</option>
+		<option value="2">B</option>
+		<option value="3">C</option>
+		<option value="4">D</option>
+		<option value="5">E</option>
+		<option value="6">F</option>
+		<option value="7">G</option>
+		</select>
+		</p>
+		<p> Choisir la colonne du 1er choix&nbsp;
+		<select id="ID_1Choix"   >
+		<option selected="selected" value="0">Aucun</option>
+		<option value="1">A</option>
+		<option value="2">B</option>
+		<option value="3">C</option>
+		<option value="4">D</option>
+		<option value="5">E</option>
+		<option value="6">F</option>
+		<option value="7">G</option>
+		</select>
+		</p>
+		<p> Choisir la colonne du 2er choix&nbsp;
+		<select id="ID_2Choix"   >
+		<option selected="selected" value="0">Aucun</option>
+		<option value="1">A</option>
+		<option value="2">B</option>
+		<option value="3">C</option>
+		<option value="4">D</option>
+		<option value="5">E</option>
+		<option value="6">F</option>
+		<option value="7">G</option>
+		</select>
+		</p>
+		<p> Choisir la colonne du 3er choix&nbsp;
+		<select id="ID_3Choix"   >
+		<option selected="selected" value="0">Aucun</option>
+		<option value="1">A</option>
+		<option value="2">B</option>
+		<option value="3">C</option>
+		<option value="4">D</option>
+		<option value="5">E</option>
+		<option value="6">F</option>
+		<option value="7">G</option>
+		</select>
+		</p>
+		<p> Choisir la colonne du 4er choix&nbsp;
+		<select id="ID_4Choix"   >
+		<option selected="selected" value="0">Aucun</option>
+		<option value="1">A</option>
+		<option value="2">B</option>
+		<option value="3">C</option>
+		<option value="4">D</option>
+		<option value="5">E</option>
+		<option value="6">F</option>
+		<option value="7">G</option>
+		</select>
+		</p>
+		<p> Choisir la colonne du 5er choix&nbsp;
+		<select id="ID_5Choix"   >
+		<option selected="selected" value="0">Aucun</option>
+		<option value="1">A</option>
+		<option value="2">B</option>
+		<option value="3">C</option>
+		<option value="4">D</option>
+		<option value="5">E</option>
+		<option value="6">F</option>
+		<option value="7">G</option>
+		</select>
+		</p>
+		<p> Choisir la colonne du 6er choix&nbsp;
+		<select id="ID_6Choix"   >
+		<option selected="selected" value="0">Aucun</option>
+		<option value="1">A</option>
+		<option value="2">B</option>
+		<option value="3">C</option>
+		<option value="4">D</option>
+		<option value="5">E</option>
+		<option value="6">F</option>
+		<option value="7">G</option>
+		</select>
+		</p>
+		<p> Choisir la ligne de votre premiere donnée (début liste)&nbsp;
+		<select id="ID_DebutListe"   >
+		<option selected="selected" value="0">Aucun</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		</select>
+		</p>
+		<p> Joindre le fichier excel &nbsp; <input type="file" id="ID_File" accept=".xlsx"> </p>
+		<p>Cliquez pour ajouter un produit  <button onclick="creerboutonequip()">+</button></body></p>
+		<div id="ID_infoEquipement"> </div>
+
+<input type="button" id="pitton" value="Selectionner les gagnants" onclick="pickAllWinner()"/><br>
+	</body>
+</html>

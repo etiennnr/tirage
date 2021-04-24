@@ -1,0 +1,101 @@
+/*
+	Fichier de style CSS pour l'interface graphique  
+	Code écrit par Viky Goupil
+	Date : 16-05-2016
+*/
+body
+{
+    margin: 0;
+    padding: 30px;
+    
+    font-family:Ubuntu;
+    color: #666666;
+    border: 5px;
+}
+
+h1
+{
+    font-family: ubuntu;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #c40707;
+}
+
+p
+{
+    font-family: ubuntu;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+a
+{
+    color: rgb(95,121,7);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+select
+{
+    font-family: ubuntu;
+    font-weight: 700;
+    color: rgb(95,121,7);
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(95,121,7);
+}
+
+button
+{
+    font-family: ubuntu;
+    font-weight: 700;
+    color: rgb(95,121,7);
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(95,121,7);
+}
+
+:disabled {
+    font-family: ubuntu;
+    font-weight: 700;
+    color: rgb(169,169,169);
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(95,121,7);
+}
+
+input
+{
+    padding: 5px;
+    font-family: ubuntu;
+    font-weight: 700;
+    color: rgb(95,121,7);
+    background-color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(95,121,7);
+}
+
+img
+{
+    margin:;
+    height: 80px;
+}

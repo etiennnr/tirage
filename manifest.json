@@ -1,0 +1,12 @@
+{
+	"name": "My Extension",
+	"version": "0.1",
+	"description": "test prototype",
+
+	"permissions": ["http://ajax.googleapis.com/", "activeTab"],
+	"browser_action": {
+		"default_title": "notefinder",
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	}
+}
